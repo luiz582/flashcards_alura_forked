@@ -1,11 +1,11 @@
 :root {
-    --text-color: #DBE4EF;
-    --card-front-color: #144480;
-    --card-back-color: #00F4BF;
+    --text-color: #1ebd33;
+    --card-front-color: #010508;
+    --card-back-color: #00ffc8;
 }
 
 body {
-    background: linear-gradient(to bottom, #2e2e2e, #bfbfbf);
+    background: linear-gradient(to bottom, #da0303, #43ff0a);
     font-family: 'Bai Jamjuree', sans-serif;
 }
 
@@ -76,13 +76,13 @@ body {
 
 .cartao__conteudo__resposta {
     transform: rotateY(180deg);
-    background-color: rgba(0, 244, 191, 0.2);
+    background-color: rgba(22, 197, 159, 0.2);
     border: 4px solid var(--card-back-color);
 }
 
 footer {
     background-color: black;
-    color: white;
+    color: rgb(47, 0, 255);
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -98,11 +98,12 @@ footer p {
 @media (max-width: 560px) {
     
     body {
-        background: black;
+        background: rgb(0, 240, 12);
     }
 
     .cartao {
         flex: 1 0 calc(100% - 1rem)
+
     }
 
     .cartao__conteudo h3 {
